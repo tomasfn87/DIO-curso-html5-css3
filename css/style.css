@@ -1,0 +1,56 @@
+body {
+    background-color: #a0a0a0;
+    margin: 0 200px 0 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(37, 114, 114);
+    opacity: 60%;
+}
+
+header {
+    margin-top: 50px;
+}
+
+h1, h2 {
+    font-family: monospace;
+    margin: 1em 0 1.3em 0;
+}
+
+h1 {
+    font-size: 2.4em;
+    color: rgb(50, 50, 200);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: rgb(60, 50, 180)
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.img_padrao {
+    margin-bottom: 20px;
+    width: 300px;
+    border-radius: 20px 0 20px 0;
+}
+
+.img_logo {
+    height: 45px;
+}
+
+#microsoft_logo {
+    height: 35px;
+}
+
+.img_icon {
+    width: 15px;
+}

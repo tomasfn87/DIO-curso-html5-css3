@@ -1,18 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="utf-8">
-        <title>Minha página</title>
+        <meta charset="utf-8"> <!-- Permite a visualização correta de 
+        acentos -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Digital Innovation One -- HTML5-CSS3</title>
     </head>
-
     <body>
+        <nav>
+            <ul>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#clientes">CLIENTES</a></li>
+                <li><a href="#parceiros">PARCEIROS</a></li>
+                <li><a href="#time">TIME</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+
         <header>
-            <h1>Minha página</h1>
-            <p>Oferecemos os melhores sites e Apps para sua empresa</p>
-            <p>A um preço acessível</p>
+            <h1>Desenvolvimento de Web-Apps e Sites</h1>
         </header>
 
-        <p>Minha primeira página</p>
+        <section id="servicos">
+            <h2>SERVIÇOS</h2>
+            <p>Oferecemos os melhores sites e Apps para sua empresa</p>
+            <div>
+                <img src="images/web-apps.png" class="img_padrao">
+            </div>
+        </section>
+
+        <section id="clientes">
+            <h2>CLIENTES</h2>
+            <p>Conheça alguns de nossos clientes</p>
+            <div>
+                <a href="https://microsoft.com/" target="_blank">
+                    <img src="images/microsoft.png" class="img_logo" id="microsoft_logo">
+                </a>
+                <a href="https://apple.com/" target="_blank">
+                    <img src="images/apple.png" class="img_logo">
+                </a>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <h2>PARCEIROS</h2>
+            <p>Conheça nossos parceiros</p>
+            <div>
+                <a href="https://digitalinnovation.one/" target="_blank">
+                    <img src="images/dio-black.png" class="img_logo">
+                </a>
+                <a href="https://intel.com/" target="_blank">
+                    <img src="images/intel.png" class="img_logo">
+                </a>
+                
+            </div>
+        </section>
+
+        <section id="time">
+            <h2>TIME</h2>
+            <p>Conheça nosso time</p>
+            <div>
+                <img src="images/team.jpeg" class="img_padrao">
+            </div>
+
+        </section>
+
+        <section id="contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato conosco</p>
+            <div>
+                <a href="tel:+551533211105">
+                    <img src="images/icon-telephone.png" class="img_icon">
+                    +55 (19) 99686-3839
+                </a>
+            </div>
+            <div>
+                <a href="mailto:tomas.nalle@alumni.usp.br">
+                    <img src="images/icon-envelope.png" class="img_icon">
+                    tomas.nalle@alumni.usp.br
+                </a>
+            </div>
+        </section>
 
         <footer>
             <p>Desenvolvido por Tomás Foch Nalle</p>
