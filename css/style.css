@@ -10,7 +10,7 @@ body a {
 }
 
 a:hover {
-    color: rgb(37, 114, 114);
+    color: rgb(15, 43, 43);
     opacity: 60%;
 }
 
@@ -39,7 +39,7 @@ p {
 
 .img_padrao {
     margin-bottom: 20px;
-    width: 300px;
+    width: 450px;
     border-radius: 20px 0 20px 0;
 }
 
@@ -48,9 +48,14 @@ p {
 }
 
 #microsoft_logo {
-    height: 35px;
+    height: 30px;
 }
 
 .img_icon {
     width: 15px;
+    opacity: 25%;
+}
+
+.img_icon:hover {
+    opacity: 60%;
 }
